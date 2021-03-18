@@ -1,0 +1,12 @@
+{
+  "name": "kick",
+  "displayName": "kick",
+  "expo": {
+    "name": "kick",
+    "slug": "kick",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

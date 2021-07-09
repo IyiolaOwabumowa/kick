@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "322151053002",
+    "project_id": "kick-game-app",
+    "storage_bucket": "kick-game-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322151053002:android:3c15938b6e726d75992633",
+        "android_client_info": {
+          "package_name": "com.kick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322151053002-uslgenpnskp7r5fr7ikfji8rraocktbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kick",
+            "certificate_hash": "21825d13ecf75d7bcf8fe1e26de2aa9c0acc3240"
+          }
+        },
+        {
+          "client_id": "322151053002-6m01b37eb0ikenuaijeuloo9s88hnl2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO6kMNJmypFfrWAA6Gg3yhG_p-6-hAZBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322151053002-6m01b37eb0ikenuaijeuloo9s88hnl2a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "322151053002-8nekiho3o2amfk39atst9i6pibrfmjlc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.imaginarium.kick"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+import React from "react";
+import {
+  StyleSheet,
+  StatusBar,
+  Text,
+  View,
+  Image,
+  ImageBackground,
+  Platform,
+  TouchableHighlight,
+  TouchableOpacity,
+  TextInput,
+  Button,
+} from "react-native";
+
+const HTP = (props) => {
+  return (
+    <ImageBackground
+      source={require("../../assets/settings-bg2.png")}
+      resizeMode="cover"
+      style={styles.container}
+    >
+      <View
+        style={{
+          backgroundColor: "white",
+          width: "100%",
+          height: "75%",
+          borderRadius: 20,
+          padding: 20,
+        }}
+      >
+        <TouchableOpacity activeOpacity={0.7} style={{flex:0, flexDirection:"row",  justifyContent: "flex-end" }}>
+          <Image
+            source={require("../../assets/cancel.png")}
+            style={{ width: 25, height: 25 }}
+          />
+        </TouchableOpacity>
+
+        <Text style={{ fontSize: 16, textAlign: "center", fontWeight: "700" }}>
+          How to Play
+        </Text>
+      </View>
+    </ImageBackground>
+  );
+};
+
+export default HTP;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    height: "110%",
+  },
+});

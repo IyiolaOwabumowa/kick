@@ -133,4 +133,6 @@ web-build/
 
 /firebase.json
 
+.env
+
 # @end expo-cli

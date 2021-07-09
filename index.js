@@ -8,9 +8,10 @@ import { name as appName } from "./app.json";
 import RNPaystack from "react-native-paystack";
 import messaging, { firebase } from "@react-native-firebase/messaging";
 import Sound from "react-native-sound";
+import { PAYSTACK_PUBLIC_KEY } from "react-native-dotenv";
 
 RNPaystack.init({
-  publicKey: "pk_test_0ad30bfa09d62c82b6744e581a2874dc5471b65a",
+  publicKey: PAYSTACK_PUBLIC_KEY,
 });
 
 export var appSounds = {};
@@ -37,9 +38,7 @@ const kickApp = ({ isHeadless }) => {
     );
   }, []);
 
-  messaging().setBackgroundMessageHandler(async (remoteMessage) => {
-    console.log("Message is handled in the background! ", remoteMessage);
-  });
+  messaging().setBackgroundMessageHandler(async (remoteMessage) => {});
 
   if (isHeadless) {
     return null;

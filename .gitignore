@@ -131,6 +131,6 @@ buck-out/
 .expo/*
 web-build/
 
-firebase.json
+/firebase.json
 
 # @end expo-cli
